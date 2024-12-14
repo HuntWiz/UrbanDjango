@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from UrbanDjango.example1.views import Index
+from UrbanDjango.task2.views import Index
 from django.views.generic import TemplateView
 
 urlpatterns = [
